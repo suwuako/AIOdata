@@ -15,5 +15,9 @@ all in one project to organise, sort, catagorise and chart all sorts of data inc
     - total user messages
     - channel message frequency
 
-[ ] graph said data
-[ ] create mathematical expression for graph and predict future datapoints
+- [ ] graph said data
+- [ ] create mathematical expression for graph and predict future datapoints
+
+# Contributors
+
+suwuako D:
