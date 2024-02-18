@@ -2,11 +2,11 @@
 all in one project to organise, sort, catagorise and chart all sorts of data including voice
 
 # Todos
-[ ] pull voice from channels
-[ ] use tensorflow/other ai training algos to convert speech to text
-[ ] download chat history
-[ ] update chat data in real time
-[ ] catagorise data
+- [ ] pull voice from channels
+- [ ] use tensorflow/other ai training algos to convert speech to text
+- [ ] download chat history
+- [ ] update chat data in real time
+- [ ] catagorise data
 
 - catagorise based off:
     - user word frequency
