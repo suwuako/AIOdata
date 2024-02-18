@@ -3,6 +3,7 @@ import discord
 
 import lib.json_handler as json_handler
 
+from discord.app_commands.tree import CommandTree
 from discord.ext import commands
 
 
@@ -16,6 +17,10 @@ class aiodata():
             print("Good morning")
             await self.load_cogs()
             print("Cogs loaded!")
+            guild = discord.Object(id=997168970044014682)
+            sync = await bot.tree.sync(guild=guild)
+            print("commands synced")
+            print(sync)
 
     async def load_cogs(self):
         await bot.load_extension("cogs.pull")
