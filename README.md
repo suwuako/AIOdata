@@ -10,6 +10,7 @@ all in one project to organise, sort, catagorise and chart all sorts of data inc
 - [ ] download chat history
 - [ ] update chat data in real time
 - [ ] catagorise data
+- [ ] website frontend for graphs (login + dashboard (oh no i have to learn webdev))
 
 - catagorise based off:
     - user word frequency
