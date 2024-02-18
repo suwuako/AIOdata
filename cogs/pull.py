@@ -17,7 +17,7 @@ class pull(commands.Cog):
         secrets = json_handler.read_json("secrets/secrets.json")
         perms = secrets["perms"]
         out = {}
-        objects = 10000
+        objects = 50000
 
         if interaction.user.id not in perms:
             print(interaction.user.id)
@@ -62,13 +62,14 @@ class pull(commands.Cog):
                     count = v
                     top_word = k
 
-            print(userid)
             user = self.bot.get_user(userid)
 
             try:
                 await interaction.followup.send(f"`top word for {user.name} is {top_word} with a count of {count}`")
             except:
-                await interaction.followup.send(f"{user.name}'s top message exceeds the 2000 character limit?")
+                pass
+
+        json_handler.write_json("secrets/data.json", out)
 
 async def setup(bot):
     await bot.add_cog(pull(bot))

@@ -1,6 +1,9 @@
 # AIOdata
 all in one project to organise, sort, catagorise and chart all sorts of data including voice
 
+# Notes
+- Polling 25000 messages is approx 5 mins
+
 # Todos
 - [ ] pull voice from channels
 - [ ] use tensorflow/other ai training algos to convert speech to text
